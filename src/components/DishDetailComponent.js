@@ -1,5 +1,5 @@
 import React  from 'react';
-import { Card , CardImg, CardBody,CardImgOverlay,CardText,CardTitle  } from 'reactstrap';
+import { Card , CardImg, CardBody,CardText,CardTitle  } from 'reactstrap';
 
     function RenderDish( {dish} ) {
         return (
@@ -14,7 +14,7 @@ import { Card , CardImg, CardBody,CardImgOverlay,CardText,CardTitle  } from 'rea
     }
 
     function RenderComments( { comments } ) {
-        if(comments.length == 0) {
+        if(comments.length === 0) {
             return ;
         }
 
