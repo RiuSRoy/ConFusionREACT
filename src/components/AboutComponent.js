@@ -12,7 +12,7 @@ function RenderLeaders({leaders}) {
                     <Media object src = {leader.image} alt = {leader.name} />
                 </Media>
                 <Media body className="mt-5">
-                    <Media right heading >
+                    <Media heading >
                         {leader.name}
                     </Media>
                     {leader.designation}
